@@ -15,7 +15,6 @@ class Vehicle(ABC):
 
 # Step 2: Create concrete vehicle classes
 class Car(Vehicle):
-    # Implement the get_name() method
     def get_name(self):
         return VehicleType.CAR.value
 
@@ -23,7 +22,6 @@ class Motorcycle(Vehicle):
     def __init__(self):
         self.name = VehicleType.MOTORCYCLE.value
     
-    # Implement the get_name() method
     def get_name(self):
         return self.name
 
@@ -31,7 +29,6 @@ class Bicycle(Vehicle):
     def __init__(self):
         self.name = VehicleType.BICYCLE.value
     
-    # Implement the get_name() method
     def get_name(self):
         return self.name
 
