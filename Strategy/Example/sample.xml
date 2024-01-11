@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<people>
+  <person name="Alice" age="30" city="New York" />
+  <person name="Bob" age="25" city="Los Angeles" />
+  <person name="Carol" age="22" city="San Francisco" />
+</people>
