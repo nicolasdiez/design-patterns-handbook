@@ -1,1 +1,1 @@
-Quick reference examples of the software design patterns.
+Quick reference examples of the most important software design patterns.
